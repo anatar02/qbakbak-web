@@ -1,0 +1,86 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2704683397,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on sample page",
+            "match": {
+              "location": "common.i_am_on_sample_page()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@bvts"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Check the fields",
+        "description": "",
+        "id": "title-of-your-feature;check-the-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1412995437,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am on sample page",
+            "match": {
+              "location": "common.i_am_on_sample_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 58240477,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I check all fields",
+            "match": {
+              "location": "common.i_check_all_fields()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@bvts"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "src/main/resources/login.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@tag"
+      }
+    ]
+  }
+]

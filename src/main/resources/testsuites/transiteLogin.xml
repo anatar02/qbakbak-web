@@ -1,0 +1,23 @@
+<suite name="TransiteSuite" verbose="1" parallel="methods" thread-count="50">  
+	<listeners>
+  	<listener class-name="com.bank.util.TestListener" />  	
+  </listeners>
+  <test name="TransiteLoginTestsChrome">  	    
+  	<parameter name="browser" value="chrome" />
+    <packages>      
+      <package name="com.bank.tests.transite.login.*" />
+   </packages>
+  </test>
+  <test name="TransiteLoginTestsFirefox">  	    
+  	<parameter name="browser" value="firefox" />
+    <packages>      
+      <package name="com.bank.tests.transite.login.*" />
+   </packages>
+  </test>
+  <test name="TransiteLoginTestsIE">  	    
+  	<parameter name="browser" value="ie" />
+    <packages>      
+      <package name="com.bank.tests.transite.login.*" />
+   </packages>
+  </test>
+</suite>

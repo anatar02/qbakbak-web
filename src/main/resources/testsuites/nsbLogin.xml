@@ -1,0 +1,11 @@
+<suite name="NSBSuite" verbose="1" parallel="methods" thread-count="50">  
+	<listeners>
+  	<listener class-name="com.bank.util.TestListener" />  	
+  </listeners>
+  <test name="TransiteLoginTestsChrome">  	    
+  	<parameter name="browser" value="chrome" />
+    <packages>      
+      <package name="com.bank.tests.nsb.login.*" />
+   </packages>
+  </test>
+</suite>
